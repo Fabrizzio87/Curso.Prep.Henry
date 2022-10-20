@@ -303,6 +303,7 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
 
+  
   var array = []
   var suma = numero
 
