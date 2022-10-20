@@ -265,18 +265,33 @@ function breakStatement(numero) {
   var suma = numero
 
   for(var i = 0; i < 10; i++) {
-    if(suma !== i) {
+   if(suma !== i) {
       suma = suma + 2;
       array.push(suma);
-    } else {
-      break;
-    }
+   } else {
+     break;
+   }
   }
   if(i < 10) {
     return "Se interrumpió la ejecución";
   } else {
     return array;
   }
+
+ //  variante si quiero que ingrese el primer numero sin sumar. Consultar.
+ // for(var i = 0; i < 9; i++) {
+ //   if(i < 1) {
+ //     array.push(numero);
+ //   } 
+ //   if(suma !== i) {
+ //     suma = suma + 2;
+ //     array.push(suma);
+ //   } 
+ //   else {
+ //     break;
+ //   }
+ // }
+ // return array;
 }
 
 
@@ -291,7 +306,7 @@ function continueStatement(numero) {
   var array = []
   var suma = numero
 
-  for(var i = 0; i < 10; i++){
+  for(var i = 0; i < 10; i++) {
     if(i !== 5) {
       suma = suma + 2;
       array.push(suma);
