@@ -1,0 +1,25 @@
+Variables: Las variables tienen un nombre para poder invocarlas mas tarde, en estas variables podemos guardar valores
+ej: Var Nombre = "Toni"
+
+Strings: Son cadenas de caracteres que estan entre comillas, estas indican que es una string.
+ej: "fabri", "numero", "techo"
+
+Funciones: Sirven para evitar escribir varias veces el mismo codigo. Agrupa los codigos, los guarda en la memoria y luego se puede invocar.
+  ej: funtion suma(num1, num2) {
+    console.log(num1 + num2)
+  }
+  Las funciones tienen argumentos que en el ejemplo anterior serian num1 y num2, estas toman un valor cuando se invoca la funciones.
+  ej: function suma(num1, num2) {
+       console.log (num1 + num2)
+      }
+      suma(3, 1)
+      4    
+
+    La funcion retur nos devuelve un valor, solo una vez. Si hay algun codigo despues del return no se ejecutara.
+
+Declaraciones (if): Son expresiones que se convierten en verdadero o falso. El codigo que este entre las llaves solo se ejecutara si es verdadera la condicion.
+
+Valores booleanos: Solo pueden tener dos true o false. Por ejemplo 
+1==1 true
+2>3 false
+2>1 true
