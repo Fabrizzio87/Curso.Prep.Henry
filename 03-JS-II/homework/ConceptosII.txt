@@ -1,0 +1,6 @@
+For: Es una funcion que evita repetir el codigo varias veces, cuando se debe realizar una operacion "n" cantidad de veces. Ej sumar del 1 al 100.
+
+`&&`, `||`, `!`: Son operadores logicos 
+                `&&` indica que ambos operadores deben ser true para que de true.
+                `||` al menos uno de los opradores debe ser true para obtener true.
+                 `!` niega al operador
